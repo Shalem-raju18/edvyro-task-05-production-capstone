@@ -1,0 +1,8 @@
+{
+  "name": "EdVyro Internship Portal - Production Capstone",
+  "description": "Production-ready Internship Portal featuring internship discovery, REST API, SQLite persistence, application pipeline, and comprehensive security controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

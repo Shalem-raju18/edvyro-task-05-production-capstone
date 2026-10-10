@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+/.pnpm-store/
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Environment Variables & Secrets (CRITICAL: Never commit real secrets)
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+!.env.example
+
+# Local SQLite Database files (contains persistent application/candidate data)
+data/
+*.db
+*.db-journal
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Certificates, Keys, & Credentials
+*.pem
+*.key
+*.cert
+*.crt
+credentials.json
+service-account*.json
+token.json
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
